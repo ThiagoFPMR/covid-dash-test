@@ -3,3 +3,4 @@ dash
 dash-html-components
 dash-core-components
 pandas
+gunicorn

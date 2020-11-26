@@ -1,1 +1,1 @@
-worker: python my_dash_app.py
+web: gunicorn app:server
