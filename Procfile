@@ -1,0 +1,1 @@
+worker: python my_dash_app.py
