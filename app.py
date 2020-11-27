@@ -151,7 +151,7 @@ def update_scatter(selected_pop, interest_var):
                   labels={'expected_years_of_school':'Expected Years of School',
                           'y': scatter_y_label(interest_var),
                           'income_group':'Income Group'},
-                  title='Total Cases VS Education Level')
+                  title='Interest Variable VS Education Level')
   fig.update_layout(transition_duration=500)
   return fig
 
@@ -172,7 +172,7 @@ def update_income_bar(selected_pop, interest_var):
                           'total_tests':'Total Tests',
                           'total_deaths':'Total Deaths',
                           'total_recovered':'Total Recovered'},
-                  title='Total Cases By Income Group')
+                  title='Interest Variable By Income Group')
   fig.update_layout()
   return fig
 
@@ -194,7 +194,7 @@ def update_country_bar(selected_pop, interest_var):
                         'total_tests':'Total Tests',
                         'total_deaths':'Total Deaths',
                         'total_recovered':'Total Recovered'},
-                title='Total Cases per Country')
+                title='Interest Variable per Country')
   fig.update_layout()
   return fig
 
