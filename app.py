@@ -149,7 +149,8 @@ def update_scatter(selected_pop, interest_var):
                   hover_name='country',
                   template='plotly_white',
                   labels={'expected_years_of_school':'Expected Years of School',
-                          'y': scatter_y_label(interest_var)},
+                          'y': scatter_y_label(interest_var),
+                          'income_group':'Income Group'},
                   title='Total Cases VS Education Level')
   fig.update_layout(transition_duration=500)
   return fig
@@ -188,6 +189,7 @@ def update_country_bar(selected_pop, interest_var):
                 color='income_group',
                 template='plotly_white',
                 labels={'country':'Country',
+                        'income_group':'Income Group',
                         'total_cases':'Total Cases',
                         'total_tests':'Total Tests',
                         'total_deaths':'Total Deaths',
